@@ -61,5 +61,7 @@ background-repeat: no-repeat;
   overflow: hidden;
   z-index: 1;
 margin-left: 520px;
-
+cursor: pointer;
 }
+
+

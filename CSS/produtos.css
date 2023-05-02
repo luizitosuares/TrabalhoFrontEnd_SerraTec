@@ -1,0 +1,61 @@
+main {
+  min-height: 100vh;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+}
+/* rgba(14, 9, 53, 255) */
+
+.carrinho {
+  text-align: center;
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 5px #000;
+  padding: 20px 40px;
+  height: 45vh;
+  margin-top: 10vh;
+  width: 30%;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Courier New', Courier, monospace; 
+}
+
+.carrinho p {
+  font-weight: bold;
+}
+
+.quantidade {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.quantidade button {
+  padding: 5px 10px;
+  border: none;
+  background: rgba(14, 9, 53, 255);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+span{
+  height: 1px;
+  background: #000;
+}
+
+.addcarrinho {
+  padding: 15px 10px;
+  border: none;
+  background: rgba(14, 9, 53, 255);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}

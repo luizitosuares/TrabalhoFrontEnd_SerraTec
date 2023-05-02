@@ -16,13 +16,15 @@ na disciplina.
 
 - [@luizitosuares](https://www.github.com/luizitosuares)
 
-- [@CrystianKelmer](https://github.com/S4nt1ag)
+- [@CrystianKelmer](https://github.com/CrystianKelmer)
 
 - [@isabeldefreitas](https://github.com/isabeldefreitas)
 
-- [@JoiceLisboa](https://github.com/tamirys2506)
+- [@JoiceLisboa](https://github.com/JoiceLisboa)
 
-- [@MarianeSMagalhaes](https://github.com/alexandre-vpacheco)
+- [@MarianeSMagalhaes](https://github.com/MarianeSMagalhaes)
+
+- [@BrenoRaeder](https://github.com/BrenoRaeder)
 
 ## Stack utilizada
 

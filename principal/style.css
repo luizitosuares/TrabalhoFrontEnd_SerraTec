@@ -12,7 +12,8 @@ padding: 0;
     height: 100vh;
     background-color: rgb(85, 83, 206);
     position: relative;
-}
+   
+  }
  
 header{
 position: fixed; 
@@ -50,7 +51,7 @@ background-repeat: no-repeat;
 .main button{
 
 
-    display: inline-block;
+  
   padding: .75rem 1.25rem;
   border-radius: 10rem;
   color: rgb(85, 83, 206);
@@ -60,9 +61,13 @@ background-repeat: no-repeat;
   transition: all .3s;
   position: relative;
   overflow: hidden;
-  z-index: 1;
-margin-left: 520px;
-cursor: pointer;
+  margin-left: 550px;
+  margin-bottom: 550px;
+  cursor: pointer;
 }
 
 
+.menubaixo{
+position: relative;
+  text-align: center;
+}

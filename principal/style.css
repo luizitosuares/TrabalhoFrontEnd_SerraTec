@@ -74,11 +74,37 @@ background-repeat: no-repeat;
 
 
 .menubaixo{
-position: relative;
+  position: relative;
   text-align: center;
 }
 
 footer {
   width: 100%;
-  background-color: brown;
+  background-color: rgb(31, 29, 29);
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.participantes {
+  display: flex;
+  flex-direction: column;
+}
+
+.redes ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.redes li {
+  margin-right: 5px;
 }

@@ -8,16 +8,16 @@ let precoInicial = parseFloat(precoTxt.textContent.replace(' R$', ''));
 let precoAtual = precoInicial;
 
 btnMais.addEventListener('click', () => {
-  qtd ++;
+  qtd++;
   precoAtual += precoInicial;
 
   precoTxt.innerText = `${precoAtual.toFixed(2)} R$`;
   qtdTxt.innerText = qtd;
-}) 
+})
 
 btnMenos.addEventListener('click', () => {
-  if(qtd > 1) {
-    qtd --;
+  if (qtd > 1) {
+    qtd--;
     precoAtual -= precoInicial;
   }
 

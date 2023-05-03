@@ -6,6 +6,7 @@ footer {
   justify-content: space-around;
   padding: 20px 0;
   margin-top: 20px;
+  position: r;
 }
 
 footer div {  
@@ -57,6 +58,13 @@ footer div {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
+
+
+
+
+
+
+
 }
 
 .newsletter form {
@@ -68,12 +76,16 @@ footer input {
   border: 1px solid #fff;
   color: #fff;
   padding: 5px 5px;
+  border-radius: 10px 0 0 10px;
+  border-right: none;
 }
 
 footer button {
+  
   background: transparent;
   border: 1px solid #fff;
   color: #fff;
+  border-radius: 0 10px 10px 0;
   padding: 5px 5px;
   font-weight: bold;
   transition: .3s;
@@ -83,3 +95,18 @@ footer button:hover {
   background: #fff;
   color:rgb(31, 29, 29);
 }
+
+.boxparticipantes img{
+  border-radius: 50%;
+  width: 6.5%;
+  display: flex;
+  margin-right: 270px;
+}
+
+hr.vertical {
+  transform: rotate(90deg);
+height: auto;
+}
+  
+
+

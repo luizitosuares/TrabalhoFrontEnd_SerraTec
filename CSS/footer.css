@@ -19,17 +19,43 @@ footer div {
   flex-direction: column;
 }
 
+.participantes li {
+  transition: .3s;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.participantes div {
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+}
+
 .participantes a {
   color: #fff;
   text-decoration: none;
   margin-bottom: 5px;
   cursor: pointer;
-  transition: .3s;
+  text-align: right;
 }
 
 .participantes a:hover {
   text-decoration: underline;
 }
+
+.participantes img{
+  border-radius: 50%;
+  width: 23px;
+  display: flex;
+}
+
+hr.vertical {
+  transform: rotate(90deg);
+  height: auto;
+}
+  
 
 .redes {
   width: 80%;
@@ -58,13 +84,6 @@ footer div {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
-
-
-
-
-
-
-
 }
 
 .newsletter form {
@@ -96,17 +115,6 @@ footer button:hover {
   color:rgb(31, 29, 29);
 }
 
-.boxparticipantes img{
-  border-radius: 50%;
-  width: 6.5%;
-  display: flex;
-  margin-right: 270px;
-}
 
-hr.vertical {
-  transform: rotate(90deg);
-height: auto;
-}
-  
 
 

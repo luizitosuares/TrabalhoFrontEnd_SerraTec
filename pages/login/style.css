@@ -44,7 +44,7 @@ body {
     color: #fff;
 }
 .title-second {
-    color: #352c85;;
+    color: rgba(14, 9, 53, 255);
 }
 .description {
     font-size: 14px;
@@ -77,17 +77,17 @@ body {
 }
 .btn-primary:hover {
     background-color: #fff;
-    color: #58af9b;
+    color: rgba(14, 9, 53, 255);
 }
 .btn-second {
-    background-color: #352c85;;
-    border: 1px solid #352c85;;
+    background-color: rgba(14, 9, 53, 255);
+    border: 1px solid rgba(14, 9, 53, 255);
     transition: background-color 1s;
 }
 .btn-second:hover {
     background-color: #fff;
-    border: 1px solid #58af9b;
-    color: #58af9b;
+    border: 1px solid rgba(14, 9, 53, 255);
+    color: rgba(14, 9, 53, 255);
 }
 .first-content {
     display: flex;
@@ -118,9 +118,9 @@ body {
     transition: background-color .5s;
 }
 .link-social-media:hover .item-social-media{
-    background-color: #58af9b;
+    background-color: rgba(14, 9, 53, 255);
     color: #fff;
-    border-color: #58af9b;
+    border-color: rgba(14, 9, 53, 255);
 }
 .list-social-media {
     display: flex;
@@ -301,37 +301,6 @@ input:-webkit-autofill
     }
 }
 
-
-/* @keyframes deslocamentoDir {
-
-    from {
-        left: 0;
-        z-index: 12;
-        opacity: 1;
-    }
-
-    25% {
-        left: -80px;
-        
-        opacity: .5;
-    }
-
-    50% {
-        left: -100px;
-       
-        opacity: .2;
-    }
-
-    to {
-        left: -110px;
-        z-index: -1;
-        opacity: 0;
-    }
-} */
-
-
-/*ANIMAÇÃO CSS*/
-
 @keyframes slidein {
 
     from {
@@ -401,3 +370,4 @@ input:-webkit-autofill
         width: 100%;
     }
 }
+

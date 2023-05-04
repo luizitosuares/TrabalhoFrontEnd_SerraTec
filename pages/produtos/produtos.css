@@ -7,7 +7,22 @@ main {
   margin: auto;
 }
 /* rgba(14, 9, 53, 255) */
-
+.informacoes{
+  display: flex;
+  justify-content:center;
+  width:40% ;
+  gap: 40px; 
+  margin-top:10vh ;
+  border: 1px solid #fff;
+  height: 45vh;
+  padding: 20px 40px;
+  box-shadow: 1px 1px 5px #000;
+  border-radius: 10px ;
+  
+}
+.informacoes img{
+  height:40vh;
+}
 .carrinho {
   text-align: center;
   border: 1px solid #fff;
@@ -20,6 +35,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   font-family: 'Courier New', Courier, monospace; 
+  border-radius: 10px;
 }
 
 .carrinho p {

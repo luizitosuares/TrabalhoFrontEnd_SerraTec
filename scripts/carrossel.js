@@ -1,4 +1,4 @@
-const img = document.querySelector(".main img")
+const img = document.querySelector(".banner")
 
 img.style.backgroundSize = "cover"
 img.style.backgroundPosition = "center center"

@@ -15,12 +15,11 @@
   <div class="container">
     <header>
       <div class="boxsuperior">
-        <img src="../../assets/img/logo-transparente.png">
+        <img class="logo" src="../../assets/img/logo-transparente.png">
         <div>
-          <a href="#">Home</a>
-          <a href="#">Shop</a>
-          <a href="#">About</a>
-          <a href="#">Contato</a>
+          <a href="../home-page/home.html">Home</a>
+          <a onclick="scrollToContainer()" style="cursor:pointer">Contato</a>
+          <a href="../carrinho/carrinho.html"><img class="icon"src="../../assets/img/car-shop1.svg"></a>
         </div>
       </div>
     </header>
@@ -31,49 +30,60 @@
           <li>
 
             <div>
-              <img
-                src="https://d1pkzhm5uq4mnt.cloudfront.net/imagens/capas/8d8f44292df8758a1b09d3b41fde4c6f8c530384.jpg">
+              <img src="../../assets/img/livros/divergente.jpg">
 
             </div>
-            <div>
+            <div class="info-livro">
               <p>Nome:</p>
               <p>Preço:</p>
-              <p>Ano:</p>
-              <p>Peso:</p>
+              <p>Quantidade:</p>
             </div>
+            <div class="btn-carrinho"><svg fill="red" width="64px" height="64px" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M22,5a1,1,0,0,1-1,1H3A1,1,0,0,1,3,4H8V3A1,1,0,0,1,9,2h6a1,1,0,0,1,1,1V4h5A1,1,0,0,1,22,5ZM4.934,21.071,4,8H20l-.934,13.071a1,1,0,0,1-1,.929H5.931A1,1,0,0,1,4.934,21.071ZM15,18a1,1,0,0,0,2,0V12a1,1,0,0,0-2,0Zm-4,0a1,1,0,0,0,2,0V12a1,1,0,0,0-2,0ZM7,18a1,1,0,0,0,2,0V12a1,1,0,0,0-2,0Z" />
+                </g>
+              </svg></div>
 
           </li>
         </ul>
 
       </div>
+      <div class="btn-container"><button class="btn-compra-mais">Continuar comprando</button>
+      <button class="btn-finalizar-compra">Finalizar compra</button></div>
+      
     </main>
     <footer>
       <div class="participantes">
         <h3>Desenvolvedores</h2>
-        <li>
-          <img src="https://avatars.githubusercontent.com/u/69677453?v=4" alt="Foto Breno"></a>
-          <div><a href="https://github.com/BrenoRaeder">Breno Raeder</a></div>
-        </li>
-        <li>
-          <img src="https://avatars.githubusercontent.com/u/127349111?v=4" alt="Foto Cristian"></a>
-          <div><a href="https://github.com/CrystianKelmer"> Crystian Kelmer</a></div>
-        </li>
-        <li>
-          <img src="https://avatars.githubusercontent.com/u/127349167?v=4" alt="Foto Mariane"></a>
-          <div><a href="https://github.com/MarianeSMagalhaes"> Mariane Santos</a></div>
-        </li>
-        <li>
-          <img src="https://media.licdn.com/dms/image/C4D03AQFdqBoduagqdA/profile-displayphoto-shrink_200_200/0/1660261926494?e=1688601600&v=beta&t=A2YEC5nppaXwjuiVA0TYr01uMgBkTXCENjrGhUNUMhg"></a>
-          <div><a href="https://www.github.com/luizitosuares">Luiz Otávio</a></div>
-        </li>
-        <li>
-          <img src="https://avatars.githubusercontent.com/u/130865890?v=4" alt="Foto Joice"> </a>
-          <div><a href="https://github.com/JoiceLisboa">Joice Pitzer</a></div>
-        </li>
-        <li>
-          <img src="https://avatars.githubusercontent.com/u/127349333?v=4" alt="Foto de Isabel"></a>
-          <div><a href="https://github.com/isabeldefreitas">Isabel de Freita</a></div>
-        </li>
+          <li>
+            <img src="https://avatars.githubusercontent.com/u/69677453?v=4" alt="Foto Breno"></a>
+            <div><a href="https://github.com/BrenoRaeder">Breno Raeder</a></div>
+          </li>
+          <li>
+            <img src="https://avatars.githubusercontent.com/u/127349111?v=4" alt="Foto Cristian"></a>
+            <div><a href="https://github.com/CrystianKelmer"> Crystian Kelmer</a></div>
+          </li>
+          <li>
+            <img src="https://avatars.githubusercontent.com/u/127349167?v=4" alt="Foto Mariane"></a>
+            <div><a href="https://github.com/MarianeSMagalhaes"> Mariane Santos</a></div>
+          </li>
+          <li>
+            <img
+              src="https://media.licdn.com/dms/image/C4D03AQFdqBoduagqdA/profile-displayphoto-shrink_200_200/0/1660261926494?e=1688601600&v=beta&t=A2YEC5nppaXwjuiVA0TYr01uMgBkTXCENjrGhUNUMhg"></a>
+            <div><a href="https://www.github.com/luizitosuares">Luiz Otávio</a></div>
+          </li>
+          <li>
+            <img src="https://avatars.githubusercontent.com/u/130865890?v=4" alt="Foto Joice"> </a>
+            <div><a href="https://github.com/JoiceLisboa">Joice Pitzer</a></div>
+          </li>
+          <li>
+            <img src="https://avatars.githubusercontent.com/u/127349333?v=4" alt="Foto de Isabel"></a>
+            <div><a href="https://github.com/isabeldefreitas">Isabel de Freita</a></div>
+          </li>
       </div>
 
       <div class="contatos">

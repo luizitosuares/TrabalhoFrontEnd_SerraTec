@@ -22,6 +22,7 @@ header {
   display: flex;
   justify-content: space-around;
   margin-right: 20px;
+  align-items: center;
 }
 
 .boxsuperior a {
@@ -36,6 +37,11 @@ header {
   font-weight: bold;
 }
 
-.boxsuperior img {
+.logo {
   height: 80px;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+
 }

@@ -6,4 +6,62 @@ body {
 main {
   min-height: 100vh;
   padding-top: 80px;
+  width: 90%;
+  margin: auto;
+}
+.container_carrinho{
+  border: 1px solid transparent;
+  background: rgba(14, 9, 53, 255);
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px;
+}
+.container_carrinho ul {
+  width: 100%;
+  margin: 30px 0px;
+  list-style: none;
+  padding: 0;
+}
+.container_carrinho li{
+background-color: white;
+display: flex;
+border-radius: 10px;
+box-shadow: 1px 1px 5px;
+justify-content: space-around;
+align-items: center;
+}
+.container_carrinho img{
+  height:30vh;
+  margin: 0;
+  padding: 0;
+}
+.btn-carrinho svg{
+width:25px;
+height: 25px;
+cursor: pointer;
+}
+.info-livro{
+ margin-right: 10%;
+ 
+}
+main button{
+padding: 10px 40px;
+cursor: pointer;
+border-radius: 10px;
+border: none;
+font-weight: bold;
+}
+.btn-compra-mais{
+  background-color:#0c0934;
+  color:#FF5733;
+}
+.btn-finalizar-compra{
+  margin-left: 10px;
+   background-color:#FF5733;
+  color:#0c0934;
+}
+.btn-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }

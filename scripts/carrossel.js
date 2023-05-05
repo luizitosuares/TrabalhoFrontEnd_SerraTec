@@ -2,6 +2,7 @@ const img = document.querySelector(".banner")
 
 img.style.backgroundSize = "cover"
 img.style.backgroundPosition = "center center"
+img.style.backgroundAttachment = "fixed"
 
 var numeroImagem = 1
 

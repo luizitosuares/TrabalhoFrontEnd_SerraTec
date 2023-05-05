@@ -53,3 +53,11 @@ livros.forEach(l=> {
     boxLivros.appendChild(div)
     caixaLivros.appendChild(boxLivros)
 })
+
+const boxLivros=document.querySelectorAll(".box-livros")
+boxLivros.forEach(l=>{
+    l.addEventListener("click",()=>{
+        localStorage.setItem("livro", "teste")
+        location.href="../produtos/produtos.html"
+    })
+})

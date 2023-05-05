@@ -13,6 +13,9 @@ footer div {
   width: 25%;
 }
 
+h3 {
+  font-size: 25px;
+}
 
 .participantes {
   display: flex;
@@ -84,26 +87,34 @@ hr.vertical {
   display: flex;
   align-items: flex-start; 
   flex-direction: column;
+  
 }
 
+.newsletter h3 {
+  font-size: 25px;
+}
 .newsletter form {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 
 footer input {
   background: #0000002d;
-  border: 1px solid #fff;
+  border: 1px solid transparent;
   color: #fff;
-  padding: 5px 5px;
+  padding: 10px 10px;
   border-radius: 10px 0 0 10px;
   border-right: none;
+  width: 100%;
+  
 }
 
 footer button {
   
   background: transparent;
-  border: 1px solid #fff;
+  border: 1px solid transparent;
   color: #fff;
   border-radius: 0 10px 10px 0;
   padding: 5px 5px;

@@ -76,6 +76,28 @@ span{
   cursor: pointer;
 }
 
-@media only screen and (max-width: 750px) {
-  
+@media only screen and (max-width: 1090px) {
+  main {
+    flex-direction: column;
+  }
+
+  .informacoes, .carrinho{
+    width:70vw;
+    margin: auto;
+  }
+
+  .informacoes {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .carrinho {
+    flex-direction: column-reverse;
+  }
+
+  .addcarrinho {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 70%;
+  }
 }

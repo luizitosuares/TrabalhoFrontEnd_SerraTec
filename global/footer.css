@@ -76,7 +76,7 @@ hr.vertical {
   padding: 5px;
 }
 
-.redes ul img{
+.redes ul img {
   width: 40px;
   background: rgba(255, 255, 255, 0.767);
   border-radius: 50%;
@@ -90,9 +90,6 @@ hr.vertical {
   
 }
 
-.newsletter h3 {
-  font-size: 25px;
-}
 .newsletter form {
   width: 100%;
   display: flex;
@@ -128,6 +125,42 @@ footer button:hover {
   color:rgb(31, 29, 29);
 }
 
+@media only screen and (max-width: 1090px) {
+  .participantes img {
+    display: none;
+  }
 
+  .participantes div {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer div {
+    width: 90%;
+    margin: auto;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .participantes li{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .participantes div {
+    margin: 0;
+    width: 40%;
+    margin-left: 10px;
+  }
+
+}
 
 

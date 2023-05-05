@@ -7,7 +7,7 @@ main {
   min-height: 100vh;
   padding-top: 80px;
   width: 90%;
-  margin: auto;
+  margin: 0 auto 100px auto;
 }
 .container_carrinho{
   border: 1px solid transparent;
@@ -22,27 +22,32 @@ main {
   padding: 0;
 }
 .container_carrinho li{
-background-color: white;
-display: flex;
-border-radius: 10px;
-box-shadow: 1px 1px 5px;
-justify-content: space-around;
-align-items: center;
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
 }
+
+.imagem-info {
+  display:flex;
+  justify-content: flex-start;
+  width: 90%;
+  align-items: center;
+}
+
 .container_carrinho img{
   height:30vh;
-  margin: 0;
-  padding: 0;
+  margin: 5px 100px 0 0;
 }
 .btn-carrinho svg{
 width:25px;
 height: 25px;
 cursor: pointer;
 }
-.info-livro{
- margin-right: 10%;
- 
-}
+
 main button{
 padding: 10px 40px;
 cursor: pointer;

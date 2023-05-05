@@ -78,19 +78,22 @@ main {
   
 }
 .container-livros img {
-
   width: 60%;
-  
-  /*object-fit: cover;*/
-
-  
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 950px){
   .banner h1 {
     font-size: 30px;
-    
+  }
+}
+
+
+@media only screen and (max-width: 530px){
+  .banner h1 {
+    font-size: 20px;
   }
 
-  
+  .box-livros {
+    font-size: 10px;
+  }
 }

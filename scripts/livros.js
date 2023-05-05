@@ -28,6 +28,104 @@ let livros=[
         preco: 39.90
 
     },
+
+
+    {
+        titulo: "Crime e Castigo",
+        ano: 2021,
+        editora: "Garnier",
+        escritor: "Fiódor Dostoiévski",
+        imagem: "../../assets/img/livros/shopping.jpg",
+        preco: 89.90
+
+    },
+
+    {
+        titulo: "Cem Anos de Solidão",
+        ano: 1977,
+        editora: "Record",
+        escritor: "Gabriel García Márquez",
+        imagem: "../../assets/img/livros/cem_anos_de_solidao.jpg",
+        preco: 44.99
+
+    },
+
+
+    {
+        titulo: "A marca da vitória: A autobiografia do criador da Nike",
+        ano: 2016,
+        editora: "Editora Sextante",
+        escritor: "Phil Knight",
+        imagem: "../../assets/img/livros/nike.jpg",
+        preco: 59.90
+
+    },
+
+
+
+    {
+        titulo: "O andar do bêbado: Como o acaso determina nossas vidas",
+        ano: 2018,
+        editora: "Zahar",
+        escritor: "Leonard Mlodinow",
+        imagem: "../../assets/img/livros/andar_do_bebado.jpg",
+        preco: 29.90
+
+    },
+
+
+
+    {
+        titulo: "As veias abertas da América Latina",
+        ano: 2010,
+        editora: "L&PM",
+        escritor: "Eduardo Galeano",
+        imagem: "../../assets/img/livros/veias.jpg",
+        preco: 50.17
+
+    },
+ 
+
+    {
+        titulo: "Em Busca De Sentido: Um psicólogo no campo de concentração",
+        ano: 1991,
+        editora: "Editora Vozes",
+        escritor: "Viktor E. Frankl",
+        imagem: "../../assets/img/livros/sentido.jpg",
+        preco: 42.00
+
+    },
+
+    {
+        titulo: "12 regras para a vida: um antídoto para o caos ",
+        ano: 2018,
+        editora: "Alta Books",
+        escritor: "Jordan B. Peterson",
+        imagem: "../../assets/img/livros/12regras.jpg",
+        preco: 46.20
+
+    },
+
+
+
+    {
+        titulo: "LIMA BARRETO - OBRA REUNIDA BOX",
+        ano: 2021,
+        editora: "Nova Fronteira",
+        escritor: "Lima Barreto",
+        imagem: "../../assets/img/livros/lima.jpg",
+        preco: 178.70
+
+    },
+
+
+
+
+
+
+
+
+
 ]
 
 const caixaLivros=document.querySelector(".container-livros")

@@ -26,7 +26,7 @@ body {
 .content::before {
     content: "";
     position: absolute;
-    background-color: #352c85;
+    background-color: #0f0a36;
     width: 40%;
     height: 100%;
     border-top-left-radius: 15px;

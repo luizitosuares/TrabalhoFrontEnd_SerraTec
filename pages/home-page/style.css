@@ -36,13 +36,54 @@ h1 {
   margin: 0 auto;
 }
 
+.barra-pesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.pesquisa {
+  padding: 10px 10px;
+  width: 50%;
+}
+
+.barra-pesquisa button {
+  padding: 11px 11px;
+  color: #fff;
+  cursor: pointer;
+  border-color: transparent;
+  font-weight: bold;
+  transition: .3s;
+  margin: 0 5px;
+}
+
+#btn {
+  background: rgba(14, 9, 53, 255);
+}
+
+#btn:hover {
+  color: rgba(14, 9, 53, 255);;
+  border-color: rgba(14, 9, 53, 255);
+  background: #fff; 
+}
+
+#refresh {
+  background: #C70039;
+}
+
+#refresh:hover {
+  color: #C70039;
+  border-color: #C70039;
+  background: #fff; 
+}
+
 main {
   min-height: 100vh;
   padding-top: 80px;
 }
 
 .box-livros {
-
   display: flex;
   border: 1px solid white;
   width: 20%;
@@ -57,9 +98,6 @@ main {
   margin-bottom: 15px;
   cursor: pointer;
   transition: .3s;
-
-
-  
 }
 
 .box-livros:hover{
@@ -72,7 +110,7 @@ main {
 
   display: flex;
   justify-content: space-around;
-  margin: 100px auto;
+  margin: 20px auto;
   flex-flow: wrap;
 
   

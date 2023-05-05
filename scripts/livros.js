@@ -89,6 +89,128 @@ let livros=[
       imagem: "../../assets/img/livros/lima.jpg",
       preco: 178.70
   },
+
+  
+  {
+    titulo: "Programação Estruturada de Computadores",
+    ano: 1999,
+    editora: "LTC",
+    escritor: "Vários escritores",
+    imagem: "../../assets/img/livros/algoritmosEstruturados.jpg",
+    preco: 130.70
+
+},
+
+{
+    titulo: "Entendendo Algoritmos: um guia ilustrado para programadores e outros curiosos",
+    ano: 2017,
+    editora: "Nova Tec",
+    escritor: "Bhargava, Aditya Y.",
+    imagem: "../../assets/img/livros/EntendendoAlgoritmos.jpg",
+    preco: 55.00
+
+},
+
+{
+    titulo: "Mindset a nova psicologia do sucesso",
+    ano: 2017,
+    editora: "Schwarcz SA",
+    escritor: "Carol S. Dweck",
+    imagem: "../../assets/img/livros/mindset_a_nova_tecnologia_do_sucesso.jpg",
+    preco: 69.99
+
+},
+
+{
+    titulo: "101 Alimentos para o seu filho comer antes de crescer",
+    ano: 2019,
+    editora: "Astral Cultural Editora LTDA",
+    escritor: "Tatiana De Vuono",
+    imagem: "../../assets/img/livros/101_Alimentos_para_o_seu_filho_comer_antes_de_crescer.jpg",
+    preco: 49.90
+
+},
+
+{
+    titulo: "Harry Potter: A pedra filosofal",
+    ano: 2000,
+    editora: "Rocco LTDA",
+    escritor: "J.K. Rowling",
+    imagem: "../../assets/img/livros/harry_potter_a_pedra_filosofal.jpg",
+    preco: 33.67
+
+},
+
+{
+    titulo: "Dragon ball vol.1",
+    ano: 2020,
+    editora: "Panini",
+    escritor: "Akira Toriyama",
+    imagem: "../../assets/img/livros/dragonball.jpg",
+    preco: 50.00
+
+},
+
+{
+    titulo: "20 mil leguas submarinas",
+    ano: 1870,
+    editora: "Zahar",
+    escritor: "Jules Verne",
+    imagem: "../../assets/img/livros/20_mil_leguas_submarinas.jpg",
+    preco: 30.00
+
+},
+
+{
+    titulo: "Cosmos",
+    ano: 2017,
+    editora: "Schwarcz SA",
+    escritor: "Carl Sagan",
+    imagem: "../../assets/img/livros/cosmos.jpg",
+    preco: 79.00
+
+},
+
+{
+    titulo: "Jogos Vorazes",
+    ano: 2022,
+    editora: "Rocco Jovens Leitores",
+    escritor: "Suzanne Collins",
+    imagem: "../../assets/img/livros/jogos_vorazes.jpg",
+    preco: 55.00
+
+},
+
+{
+    titulo: "Romeu e Julieta",
+    ano: 1597,
+    editora: "Penguin-Companhia",
+    escritor: "William Shakespeare",
+    imagem: "../../assets/img/livros/romeu_e_julieta.jpg",
+    preco: 30.00
+
+},
+
+{
+    titulo: "50 Tons de Cinza",
+    ano: 2012,
+    editora: "Intrínseca",
+    escritor: "E. L. James",
+    imagem: "../../assets/img/livros/Cinquentatonsdecinza.jpg",
+    preco: 25.00
+
+},
+
+{
+    titulo: "agape",
+    ano: 2010,
+    editora: "Principium",
+    escritor: "Padre Marcelo Rossi",
+    imagem: "../../assets/img/livros/agapa.jpg",
+    preco: 20.00
+
+},
+
 ]
 //coloca livros no localStorage
 

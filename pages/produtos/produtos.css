@@ -6,6 +6,9 @@ main {
   width: 90%;
   margin: auto;
 }
+body{
+  background-color: #f0f0f478;
+}
 /* rgba(14, 9, 53, 255) */
 .informacoes{
   display: flex;

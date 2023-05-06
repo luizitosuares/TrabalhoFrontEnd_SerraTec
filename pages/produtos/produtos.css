@@ -84,9 +84,21 @@ span{
     flex-direction: column;
   }
 
+  h2{
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .informacoes img{
+    height:110px;
+  }
+
   .informacoes, .carrinho{
-    width:70vw;
-    margin: auto;
+    width: auto;
+    margin: 5px 0;
   }
 
   .informacoes {

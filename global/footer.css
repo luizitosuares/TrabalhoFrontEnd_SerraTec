@@ -134,6 +134,12 @@ footer button:hover {
 
   .participantes div {
     width: 100%;
+    
+  }
+
+  .participantes div a {
+    text-align: center;
+    width: 100%;
   }
 }
 

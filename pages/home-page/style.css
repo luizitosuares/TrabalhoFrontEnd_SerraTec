@@ -102,6 +102,8 @@ main {
   cursor: pointer;
   transition: .3s;
   background-color: #ffff;
+  word-break: break-all;
+    white-space: normal;
 }
 
 .box-livros:hover {

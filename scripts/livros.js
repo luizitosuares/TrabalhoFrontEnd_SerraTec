@@ -172,12 +172,12 @@ let livros=[
 },
 
 {
-    titulo: "Jogos Vorazes",
+    titulo: "The Hunter Games: Four Book Collection ",
     ano: 2022,
-    editora: "Rocco Jovens Leitores",
+    editora: "Scholascic Press",
     escritor: "Suzanne Collins",
-    imagem: "../../assets/img/livros/jogos_vorazes.jpg",
-    preco: 55.00
+    imagem: "../../assets/img/livros/hg.jpg",
+    preco: 555.18
 
 },
 
@@ -206,9 +206,88 @@ let livros=[
     ano: 2010,
     editora: "Principium",
     escritor: "Padre Marcelo Rossi",
-    imagem: "../../assets/img/livros/agapa.jpg",
+    imagem: "../../assets/img/livros/agape.jpg",
     preco: 20.00
 
+},
+{
+    titulo: "empreendedorismo para subversivos",
+    ano: 2017,
+    editora: "Planeta",
+    escritor: "Facundo Guerra",
+    imagem: "../../assets/img/livros/empreendedorismo.jpg",
+    preco: 41.90
+
+},
+{
+    titulo: "Guerra e paz - Box Capa",
+    ano: 2019,
+    editora: "Nova Fronteira",
+    escritor: "Leon Tolstúi",
+    imagem: "../../assets/img/livros/guerra-e-paz.jpg",
+    preco: 144.50
+
+},
+{
+    titulo: "A revolução dos Bichos",
+    ano: 1945,
+    editora: " Companhia das Letras",
+    escritor: "George Orwell",
+    imagem: "../../assets/img/livros/revolucao-bichos.jpg",
+    preco: 11.90
+
+},
+{
+    titulo: "Blink - A decisão num piscar de olhos",
+    ano: 2016,
+    editora: " Sextante",
+    escritor: "Malcolm Gladwell",
+    imagem: "../../assets/img/livros/blink.jpg",
+    preco: 44.90
+
+},
+{
+    titulo: "1984",
+    ano: 1948,
+    editora: " Companhia das Letras",
+    escritor: "George Orwell",
+    imagem: "../../assets/img/livros/1984.jpg",
+    preco: 24.90
+
+},
+{
+    titulo: "Estrela Solitaria",
+    ano: 1995,
+    editora: " Companhia das Letras",
+    escritor: "Ruy Castro",
+    imagem: "../../assets/img/livros/estrela-solitaria.jpg",
+    preco: 74.40
+
+},
+{
+    titulo: "Vale Tudo",
+    ano: 2007,
+    editora: " Objetiva",
+    escritor: "Nelson Motta",
+    imagem: "../../assets/img/livros/vale-tudo.jpg",
+    preco: 24.90
+
+},
+{
+    titulo: "A História da airbnb",
+    ano: 2018,
+    editora: "Buzz",
+    escritor: "Leigh Gallagher",
+    imagem: "../../assets/img/livros/airbnb.jpg",
+    preco: 41.89
+},
+{
+    titulo: "Um de nós está mentindo",
+    ano: 2021,
+    editora: "Galera",
+    escritor: "Karen McManus",
+    imagem: "../../assets/img/livros/um-de-nos-esta-mentindo.jpg",
+    preco: 45.99
 },
 
 ]

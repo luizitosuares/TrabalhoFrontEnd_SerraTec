@@ -54,16 +54,18 @@ h3 {
   display: flex;
 }
 
-hr.vertical {
-  transform: rotate(90deg);
-  height: auto;
+.contatos {
+  border-left: 1px solid #5c5a5a;
+  border-right: 1px solid #5c5a5a;
+  padding: 0 10px;
+  text-align: center;
 }
-  
 
 .redes {
   width: 80%;
   display: flex;
   justify-content: space-around;
+  margin: auto;
 }
 
 .redes ul {
@@ -143,16 +145,25 @@ footer button:hover {
 
   footer div {
     width: 90%;
-    margin: auto;
+    margin: 10px auto;
   }
 
   h3 {
     font-size: 20px;
   }
 
+  .contatos {
+    border: none;
+    border-top: 1px solid #5c5a5a;
+    border-bottom: 1px solid #5c5a5a;
+    padding: 10px 10px;
+    text-align: center;
+  }
+
   .participantes li{
     width: 100%;
     justify-content: center;
+    font-size: 10px;
   }
 
   .participantes div {

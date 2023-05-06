@@ -7,7 +7,7 @@ btn.addEventListener('click', () => {
   let listaPesquisa= [];
   const caixaLivros = document.querySelector(".container-livros")
 
-  let livros = JSON.parse(localStorage.getItem('listaLivros'));
+  let livros = JSON.parse(localStorage.getItem('livrosLista'));
 
   livros.forEach(livro => {
 

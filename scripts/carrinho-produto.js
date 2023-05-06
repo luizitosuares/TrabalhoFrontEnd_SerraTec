@@ -5,14 +5,15 @@ const precoTxt = document.querySelector('#preco');
 const btnAddCarrinho = document.querySelector('.addcarrinho');
 
 let qtd = 1;
-let precoInicial = parseFloat(precoTxt.textContent.replace(' R$', ''));
+let precoInicial = parseFloat(precoTxt.textContent.replace('R$ ', ''));
 let precoAtual = precoInicial;
+
 
 btnMais.addEventListener('click', () => {
   qtd++;
   precoAtual += precoInicial;
 
-  precoTxt.innerText = `${precoAtual.toFixed(2)} R$`;
+  precoTxt.innerText = `R$ ${precoAtual.toFixed(2)}`;
   qtdTxt.innerText = qtd;
 })
 
@@ -22,7 +23,7 @@ btnMenos.addEventListener('click', () => {
     precoAtual -= precoInicial;
   }
 
-  precoTxt.innerText = `${precoAtual.toFixed(2)} R$`;
+  precoTxt.innerText = `R$ ${precoAtual.toFixed(2)}`;
   qtdTxt.innerText = qtd;
 })
 

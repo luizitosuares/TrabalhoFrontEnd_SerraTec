@@ -1,5 +1,9 @@
 const form = document.querySelector("main form");
-console.log(form[3]);
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+})
+
 document.querySelector("#btn-finalizar").addEventListener("click", () => {
   let endereco = {
     endereco1: form[0].value,
@@ -9,7 +13,9 @@ document.querySelector("#btn-finalizar").addEventListener("click", () => {
     cep: form[4].value,
   };
   localStorage.setItem("endereco", JSON.stringify(endereco));
+  location.href = '../finalizar-compra/nota.html';
 });
+
 document.querySelector("#btn-cancelar").addEventListener("click", () => {
   location.href = "../home-page/home.html";
 });

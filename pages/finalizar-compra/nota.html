@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .container div {
+      width: 70%;
+      margin: 50px auto;
+      border: 1px solid rgb(219, 202, 125);
+      background: rgb(219, 202, 125);
+    }
+    pre {
+      font-size: 20px;
+    }
+    .container-btn {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .container-btn button {
+      padding: 10px 15px;
+      background-color:  rgba(14, 9, 53, 255);
+      color: #fff;
+      border: none;
+      transition: .3s;
+      cursor: pointer;
+    }
+    .container-btn button:hover {
+      background-color: #fff;
+      color: rgba(14, 9, 53, 255);
+      border: 1px solid rgba(14, 9, 53, 255);
+    }
+
+    @media only screen and (max-width: 1090px) {
+      .container div {
+        width: 85%;
+        margin: 50px auto;
+        border: 1px solid rgb(219, 202, 125);
+        background: rgb(219, 202, 125);
+      }
+      pre {
+        font-size: 18px;
+      }
+    }
+
+    @media only screen and (max-width: 800px) {
+      pre {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <pre class="nota">
+
+      </pre>
+    </div>
+  </div>
+  <div class="container-btn">
+    <button>Voltar para Home</button>
+  </div>
+</body>
+<script>
+  const endereco = JSON.parse(localStorage.getItem('endereco'));
+  let nota = `
+  ======================================
+  ======================================
+              Entre Linhas
+  ======================================
+  ======================================
+  
+
+
+  -Endereço-
+
+  Rua: ${endereco.endereco1}
+  Nome: ${endereco.endereco2}
+  Cidade: ${endereco.cidade}
+  Estado: ${endereco.estado}
+  CEP: ${endereco.cep}
+
+  ----------------------
+
+  `;
+
+  let listaCarrinho = JSON.parse(localStorage.getItem('listaCarrinho'));
+
+  let totalPreco = 0;
+
+  nota+='\n  -Livros-\n'
+
+  listaCarrinho.forEach(l => {
+    nota += `
+  Livro: ${l.titulo}
+  Quantidade: ${l.quantidade}
+  Preço: ${l.preco}
+
+  ----------------------
+
+  `
+  console.log(l.preco);
+  totalPreco += parseFloat(l.preco.replace('R$ ', ''))
+  })
+  
+  nota+=`
+  Total: R$ ${totalPreco.toFixed(2)}
+  `
+
+  document.querySelector('.nota').innerText = nota;
+
+  document.querySelector('.container-btn button').addEventListener('click', () => {
+    listaCarrinho = [];
+    localStorage.setItem('listaCarrinho', JSON.stringify(listaCarrinho));
+    location.href = '../home-page/home.html';
+  })
+</script>
+</html>

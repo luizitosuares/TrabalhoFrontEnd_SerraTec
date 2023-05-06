@@ -33,4 +33,4 @@ document.querySelector('.informacoes').appendChild(div);
 
 //setando o preco
 
-document.querySelector('#preco').innerText = `${livro.preco.toFixed(2)} R$` 
+document.querySelector('#preco').innerText = `R$ ${livro.preco.toFixed(2)}` 

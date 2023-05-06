@@ -325,9 +325,9 @@ livros.forEach(l=> {
   caixaLivros.appendChild(boxLivros)
 })
 
-const boxLivros=document.querySelectorAll(".box-livros")
+// const boxLivros=document.querySelectorAll(".box-livros")
 
-boxLivros.forEach(l => {
+document.querySelectorAll(".box-livros").forEach(l => {
   l.addEventListener("click",()=>{
       //pegando o livro na lista de livros do localStorage
       let lista = JSON.parse(localStorage.getItem('livrosLista'));

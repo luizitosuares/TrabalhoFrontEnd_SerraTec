@@ -138,7 +138,7 @@ footer button:hover {
   }
 
   .participantes div a {
-    text-align: center;
+    text-align: left;
     width: 100%;
   }
 }
@@ -178,6 +178,16 @@ footer button:hover {
     margin-left: 10px;
   }
 
+  .participantes div a {
+    text-align: center;
+    width: 100%;
+  }
+
+  .newsletter button{
+    margin-left: 1px;
+    
+  }
+  
 }
 
 

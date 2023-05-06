@@ -57,6 +57,7 @@ h1 {
   font-weight: bold;
   transition: .3s;
   margin: 0 5px;
+  border-radius: 10px;
 }
 
 #btn {
@@ -126,15 +127,32 @@ main {
   .banner h1 {
     font-size: 30px;
   }
+
+  .barra-pesquisa {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .barra-pesquisa input {
+    width: 80%;
+  }
+
+  .barra-pesquisa button {
+    margin-top: 5px;
+    padding: 5px 0;
+    width: 100px;    
+  }
 }
 
 
 @media only screen and (max-width: 530px) {
   .banner h1 {
     font-size: 20px;
+    padding: 10px 0;
   }
 
   .box-livros {
     font-size: 10px;
+    padding: 2px;
   }
 }

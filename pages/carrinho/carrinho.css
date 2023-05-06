@@ -9,19 +9,24 @@ main {
   width: 90%;
   margin: 0 auto 100px auto;
 }
-.container_carrinho{
+
+
+.container_carrinho {
   border: 1px solid transparent;
   background: rgba(14, 9, 53, 255);
   border-radius: 10px;
   box-shadow: 1px 1px 5px;
+  font-family: 'Courier New', Courier, monospace;
 }
+
 .container_carrinho ul {
   width: 100%;
   margin: 30px 0px;
   list-style: none;
   padding: 0;
 }
-.container_carrinho li{
+
+.container_carrinho li {
   background-color: white;
   display: flex;
   border-radius: 10px;
@@ -32,41 +37,76 @@ main {
 }
 
 .imagem-info {
-  display:flex;
+  display: flex;
   justify-content: flex-start;
   width: 90%;
   align-items: center;
 }
 
-.container_carrinho img{
-  height:30vh;
+.container_carrinho img {
+  width: 12vw;
+  height: auto;
   margin: 5px 100px 0 0;
 }
-.btn-carrinho svg{
-width:25px;
-height: 25px;
-cursor: pointer;
+
+.btn-carrinho svg {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
 }
 
-main button{
-padding: 10px 40px;
-cursor: pointer;
-border-radius: 10px;
-border: none;
-font-weight: bold;
+main button {
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
 }
-.btn-compra-mais{
-  background-color:#0c0934;
-  color:#FF5733;
+
+.btn-compra-mais {
+  background-color: #0c0934;
+  color: #FF5733;
+  transition: .3s;
+  border:2px solid transparent;
 }
-.btn-finalizar-compra{
+
+.btn-compra-mais:hover {
+  background-color: transparent;
+  color: #0c0934;
+  border-color: #0c0934;
+}
+
+.btn-finalizar-compra {
   margin-left: 10px;
-   background-color:#FF5733;
-  color:#0c0934;
+  background-color: #FF5733;
+  color: #0c0934;
+  transition: .3s;
+  border:2px solid transparent;
 }
-.btn-container{
+
+.btn-finalizar-compra:hover {
+  background-color: transparent;
+  color: #c53615;
+  border-color: #FF5733;
+}
+
+.btn-container {
   margin-top: 20px;
   display: flex;
   justify-content: flex-end;
   width: 100%;
+}
+
+@media only screen and (max-width: 780px) {
+  .container_carrinho {
+    font-size: 12px;
+  }
+
+  .container_carrinho img {
+    width: 10vw;
+    height: auto;
+    margin: 5px 5px 0 0;
+  }
+  
 }

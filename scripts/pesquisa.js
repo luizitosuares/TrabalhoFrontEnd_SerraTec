@@ -18,7 +18,6 @@ btn.addEventListener('click', () => {
     }
   })
 
-  console.log(listaPesquisa);
   listaPesquisa.forEach(l => {
     
     const img = document.createElement("img")
@@ -35,18 +34,33 @@ btn.addEventListener('click', () => {
     div.appendChild(nome)
     div.appendChild(preco)
   
-    const boxLivros = document.createElement("div")
+    const box = document.createElement("div")
   
     //colocando id com o nome do livro
-    boxLivros.setAttribute('id', l.titulo);
+    box.setAttribute('id', l.titulo);
   
-    boxLivros.setAttribute("class", "box-livros")
-    boxLivros.appendChild(img)
-    boxLivros.appendChild(div)
-    caixaLivros.appendChild(boxLivros)
+    box.setAttribute("class", "box-livros")
+    box.appendChild(img)
+    box.appendChild(div)
+    caixaLivros.appendChild(box)
   })
+
 })
 
+setInterval(() => {
+  document.querySelectorAll(".box-livros").forEach(l => {
+    l.addEventListener("click",()=>{
+        //pegando o livro na lista de livros do localStorage
+        let lista = JSON.parse(localStorage.getItem('livrosLista'));
+        let nomeLivro = l.getAttribute('id');
+        lista.forEach(livro => {
+          if(livro.titulo === nomeLivro)
+            localStorage.setItem('livro', JSON.stringify(livro));
+        }) 
+        location.href="../produtos/produtos.html"
+    })
+  })
+}, 500)
 
 
 document.querySelector('#refresh').addEventListener('click', () => {

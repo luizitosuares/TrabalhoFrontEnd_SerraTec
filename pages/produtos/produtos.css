@@ -21,7 +21,11 @@ body{
   padding: 20px 40px;
   box-shadow: 1px 1px 5px #000;
   border-radius: 10px ;
-  
+  font-size: 1.2vw;
+}
+
+.informacoes div {
+  height: 40vh;
 }
 .informacoes img{
   height:40vh;
@@ -92,18 +96,32 @@ span{
     font-size: 10px;
   }
 
+  span{
+    display: none;
+  }
+
   .informacoes img{
-    height:110px;
+    width:20vw;
+    height: auto;
+    margin: auto;
   }
 
   .informacoes, .carrinho{
     width: auto;
     margin: 5px 0;
+    height: auto;
   }
 
   .informacoes {
     margin-top: 50px;
     margin-bottom: 10px;
+    flex-direction: column;
+    
+  }
+
+  .informacoes div {
+    font-size: 3vw;
+    height: auto;
   }
 
   .carrinho {
@@ -114,5 +132,18 @@ span{
     margin: auto;
     margin-bottom: 10px;
     width: 70%;
+  }
+
+  #preco {
+    border: 1px solid #000;
+    width: auto;
+    padding: 5px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 650px) { 
+  .informacoes img{
+    width:40vw;
   }
 }

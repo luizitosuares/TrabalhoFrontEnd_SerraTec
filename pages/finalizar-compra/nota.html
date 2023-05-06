@@ -19,6 +19,8 @@
     }
     pre {
       font-size: 20px;
+      white-space: pre-wrap;
+      width: 100%;
     }
     .container-btn {
       width: 100%;
@@ -51,9 +53,13 @@
       }
     }
 
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 600px) {
       pre {
         font-size: 12px;
+        
+      }
+      .container div {
+        width: 100%;
       }
     }
   </style>

@@ -82,7 +82,7 @@ let livros=[
       preco: 46.20
   },
   {
-      titulo: "LIMA BARRETO - OBRA REUNIDA BOX",
+      titulo: "Lima Barreto - OBRA REUNIDA BOX",
       ano: 2021,
       editora: "Nova Fronteira",
       escritor: "Lima Barreto",
@@ -152,7 +152,7 @@ let livros=[
 },
 
 {
-    titulo: "20 mil leguas submarinas",
+    titulo: "20 mil léguas submarinas",
     ano: 1870,
     editora: "Zahar",
     escritor: "Jules Verne",
@@ -202,7 +202,7 @@ let livros=[
 },
 
 {
-    titulo: "agape",
+    titulo: "Ágape",
     ano: 2010,
     editora: "Principium",
     escritor: "Padre Marcelo Rossi",
@@ -211,7 +211,7 @@ let livros=[
 
 },
 {
-    titulo: "empreendedorismo para subversivos",
+    titulo: "Empreendedorismo para subversivos",
     ano: 2017,
     editora: "Planeta",
     escritor: "Facundo Guerra",
@@ -220,7 +220,7 @@ let livros=[
 
 },
 {
-    titulo: "Guerra e paz - Box Capa",
+    titulo: "Guerra e Paz - Box Capa",
     ano: 2019,
     editora: "Nova Fronteira",
     escritor: "Leon Tolstúi",
@@ -256,7 +256,7 @@ let livros=[
 
 },
 {
-    titulo: "Estrela Solitaria",
+    titulo: "Estrela Solitária",
     ano: 1995,
     editora: " Companhia das Letras",
     escritor: "Ruy Castro",
@@ -274,7 +274,7 @@ let livros=[
 
 },
 {
-    titulo: "A História da airbnb",
+    titulo: "A História da Airbnb",
     ano: 2018,
     editora: "Buzz",
     escritor: "Leigh Gallagher",
@@ -289,6 +289,39 @@ let livros=[
     imagem: "../../assets/img/livros/um-de-nos-esta-mentindo.jpg",
     preco: 45.99
 },
+{
+    titulo: "League of Legends: Reinos de Runeterra",
+    ano: 2020,
+    editora: "Galera Record",
+    escritor: "Riot Games",
+    imagem: "../../assets/img/livros/lol.jpg",
+    preco: 76.55
+},
+{
+    titulo: "Letras",
+    ano: 2022,
+    editora: "Editora Schwarcz",
+    escritor: "Caetano Veloso ",
+    imagem: "../../assets/img/livros/caetano.jpg",
+    preco: 76.55
+},
+{
+    titulo: "Akira Vol.1",
+    ano: 1988,
+    editora: "Editora JBC",
+    escritor: "Katsuhiro Otomo ",
+    imagem: "../../assets/img/livros/akira.jpg",
+    preco: 119.99
+},
+{
+    titulo: "HP Lovecraft Os melhores contos - BOX",
+    ano: 2022,
+    editora: "Pandorga Editora e Produtora LTDA",
+    escritor: "HP Lovecraft",
+    imagem: "../../assets/img/livros/hp-lv.jpg",
+    preco: 69.99
+},
+
 
 ]
 //coloca livros no localStorage

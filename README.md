@@ -34,4 +34,6 @@ na disciplina.
 
 
 
-## Screenshots
+## Acesso ao site:
+
+https://trabalhofrontendserratecg1.netlify.app/pages/home-page/home.html
